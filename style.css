@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+}
+#cabecalho{
+    background-color: rgb(250, 197, 24);
+    text-align: center;
+    padding:15px;
+}
+
+#titulo-cabecalho{
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+#container{
+    border: none;
+    background-color: rgb(219, 219, 219);
+    width: 950px;
+    margin: 0px auto;
+    
+}
+
+#postagens{
+    border:none;
+    width: 640px;
+    padding-top: 25px;
+}
+
+#postagens-recentes{
+    width: 260px;
+    border:none ;
+    padding:5px;
+    float: right;
+}
+
+#postagem1{
+    border: none;   
+    padding-bottom: 60px;
+    
+}
+
+#rodape{
+    border:none;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(223, 223, 223);
+}
+
+.texto-postagens{
+    padding: 5px;
+}
+
+.texto-postagens-recentes{
+    padding-bottom: 3px;
+}
+
+.titulo-postagens-recentes{
+    color:rgb(95, 95, 95);
+    background-color:rgb(204, 204, 204);
+    margin-bottom: 8px; 
+}
+
+.titulo-postagens{
+    color: rgb(250, 197, 24);
+    padding-bottom: 3px;
+}
+
+.imagem1{
+    padding-top: 10px;
+}
+
+
+.link-navegacao{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.link-navegacao:hover{
+    color: rgb(250, 197, 24);
+    background-color:white;
+    border-radius:3px;
+}
+
+.link-navegacao:active{
+    color: rgb(209, 165, 18);
+    
+}
+
+.link-navegacao:link,.link-navegacao:link{
+    color: rgb(255, 255, 255);
+    
+}
+
+a{
+    color:rgb(177, 138, 10) ;
+    padding: 2px;
+    text-decoration: none;
+}
+
+.tec{
+    color: rgb(70, 64, 57);
+}
+
+.blog{
+    color: rgb(223, 223, 223);
+}
+
+.texto-de-canto{
+    border: 2px outset rgb(114, 114, 23);
+    border-radius: 5px;
+    padding: 3px;
+    margin: 2px;
+    background-color: white;
+    width: 145px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+body{
+    font-size: 16px;
+    background-color:rgb(219, 219, 219);
+}
+
+hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+clear{
+    clear:both;
+}
